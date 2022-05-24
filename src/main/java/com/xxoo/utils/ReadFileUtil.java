@@ -11,8 +11,8 @@ public class ReadFileUtil {
 
     public static void main(String[] args) {
         //调用读取方法，定义文件以及读取行数
-        //readLastNLine(new File("/Users/yanshaohua/Desktop/闫绍华-Java开发-3年.txt"), 5L);
-        readFrontNLine(new File("/Users/yanshaohua/Desktop/闫绍华-Java开发-3年.txt"), 5L);
+        //readLastNLine(new File("文件路径"), 5L);
+        readFrontNLine(new File("文件路径"), 5L);
     }
 
 
@@ -152,4 +152,10 @@ public class ReadFileUtil {
 
         return result;
     }
+
+
+    /**
+     * 把内容写入文件
+     */
+
 }
